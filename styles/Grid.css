@@ -1,0 +1,48 @@
+/*Page Container Styles*/
+.page-container {
+    display: flex;
+    justify-content:center;
+}
+
+.page-container > .content-wrapper {
+    width: 1000px;
+}
+.page-container > .content-wrapper p{
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.page-container > .content-wrapper > #chef {
+    width: 350px;
+    margin: 23px 40px 20px 0;
+    float: left;
+    border: 1px solid #cea135;
+}
+/*sqaures grid styles*/
+.squares-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.squares-wrapper > .squares {
+    width: 1000px;
+}
+.squares-wrapper > .squares > .square {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -4px;
+}
+
+.square > .img-wrapper img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+.square > .square-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 42px;
+}
+.square > .square-text-wrapper h1 {
+    color: #cea135;
+}
